@@ -212,9 +212,9 @@ input:focus, textarea:focus{ border-color: rgba(107,191,89,.6); }
 }
 /* Forzar tamaño del logo en el header */
 .brand .logo{
-  height: 52px !important;
+  height: 60px !important;
   width: auto !important;
-  max-height: 52px !important;
+  max-height: 60px !important;
   max-width: 200px !important;
   display: block !important;
   object-fit: contain !important;
