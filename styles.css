@@ -211,7 +211,7 @@ input:focus, textarea:focus{ border-color: rgba(107,191,89,.6); }
   .contactGrid{ grid-template-columns: 1fr; }
 }
 .logo{
-  height: 32px;
+  height: 12px;
   width: auto;
   display: block;
 }
