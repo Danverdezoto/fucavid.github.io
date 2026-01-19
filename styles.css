@@ -210,8 +210,18 @@ input:focus, textarea:focus{ border-color: rgba(107,191,89,.6); }
   .stats{ grid-template-columns: 1fr; }
   .contactGrid{ grid-template-columns: 1fr; }
 }
-.logo{
-  height: 44px !important;
+/* Forzar tamaño del logo en el header */
+.brand .logo{
+  height: 52px !important;
   width: auto !important;
-  display: block;
+  max-height: 52px !important;
+  max-width: 200px !important;
+  display: block !important;
+  object-fit: contain !important;
+}
+
+/* Alinear logo correctamente */
+.brand{
+  display: flex;
+  align-items: center;
 }
